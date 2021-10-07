@@ -1,0 +1,39 @@
+.body{
+	background-color: black;
+
+background: radial-gradient(circle,rgb(83, 82, 80), black) !important;
+}
+.flex__container{
+    display: flex;
+    align-items: center;
+   flex-wrap: wrap;
+    justify-content: center;
+    background: #444;
+    margin: 50px 30px;
+    max-width: 600px;
+    max-height: 500px;
+}
+.form{
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    border: 3px solid brown;
+    background: #444;
+    height: 500px;
+    
+}
+.form__input{
+    width: 100%;
+    padding: 7px;
+    margin: 10px 0;
+    border: 3px solid brown;
+}
+.form__input:focus{
+    background: rgb(255, 229, 195);
+
+}
+
+
+
+
